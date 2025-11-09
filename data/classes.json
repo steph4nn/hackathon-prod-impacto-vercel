@@ -1,0 +1,98 @@
+[
+  {
+    "id": "6a",
+    "name": "6º Ano A",
+    "totalStudents": 20,
+    "averageGrade": 7.9,
+    "attendanceRate": 79,
+    "atRiskCount": 12
+  },
+  {
+    "id": "6b",
+    "name": "6º Ano B",
+    "totalStudents": 27,
+    "averageGrade": 7.7,
+    "attendanceRate": 82,
+    "atRiskCount": 17
+  },
+  {
+    "id": "6c",
+    "name": "6º Ano C",
+    "totalStudents": 28,
+    "averageGrade": 7.5,
+    "attendanceRate": 78,
+    "atRiskCount": 19
+  },
+  {
+    "id": "7a",
+    "name": "7º Ano A",
+    "totalStudents": 26,
+    "averageGrade": 7.6,
+    "attendanceRate": 82,
+    "atRiskCount": 18
+  },
+  {
+    "id": "7b",
+    "name": "7º Ano B",
+    "totalStudents": 28,
+    "averageGrade": 7.2,
+    "attendanceRate": 83,
+    "atRiskCount": 18
+  },
+  {
+    "id": "7c",
+    "name": "7º Ano C",
+    "totalStudents": 25,
+    "averageGrade": 7.1,
+    "attendanceRate": 82,
+    "atRiskCount": 18
+  },
+  {
+    "id": "8a",
+    "name": "8º Ano A",
+    "totalStudents": 23,
+    "averageGrade": 7.7,
+    "attendanceRate": 87,
+    "atRiskCount": 8
+  },
+  {
+    "id": "8b",
+    "name": "8º Ano B",
+    "totalStudents": 16,
+    "averageGrade": 7.8,
+    "attendanceRate": 83,
+    "atRiskCount": 7
+  },
+  {
+    "id": "8c",
+    "name": "8º Ano C",
+    "totalStudents": 27,
+    "averageGrade": 7.8,
+    "attendanceRate": 81,
+    "atRiskCount": 15
+  },
+  {
+    "id": "9a",
+    "name": "9º Ano A",
+    "totalStudents": 33,
+    "averageGrade": 7.8,
+    "attendanceRate": 83,
+    "atRiskCount": 16
+  },
+  {
+    "id": "9b",
+    "name": "9º Ano B",
+    "totalStudents": 34,
+    "averageGrade": 7.4,
+    "attendanceRate": 83,
+    "atRiskCount": 21
+  },
+  {
+    "id": "9c",
+    "name": "9º Ano C",
+    "totalStudents": 23,
+    "averageGrade": 7.7,
+    "attendanceRate": 81,
+    "atRiskCount": 16
+  }
+]

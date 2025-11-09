@@ -1,0 +1,714 @@
+[
+  {
+    "date": "2025-11-09",
+    "totalAbsences": 15,
+    "byNeighborhood": {
+      "Alto da Serra": 3,
+      "Zona Rural Norte": 3,
+      "Vila Nova": 1,
+      "Jardim Europa": 1,
+      "Vila União": 1,
+      "Parque das Flores": 3,
+      "Jardim Paulista": 1,
+      "Vila Industrial": 1,
+      "São José": 1
+    },
+    "byBusRoute": {
+      "Linha 500": 8,
+      "Linha 600": 3,
+      "Linha 200": 2,
+      "Linha 400": 1,
+      "Linha 100": 1
+    },
+    "byClass": {
+      "9a": 2,
+      "8b": 2,
+      "7c": 1,
+      "6a": 1,
+      "9c": 1,
+      "7b": 2,
+      "8a": 1,
+      "6b": 1,
+      "7a": 1,
+      "9b": 1,
+      "8c": 1,
+      "6c": 1
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "totalAbsences": 53,
+    "byNeighborhood": {
+      "Alto da Serra": 12,
+      "Zona Rural Norte": 3,
+      "Vila Nova": 1,
+      "Jardim Europa": 2,
+      "Jardim Paulista": 1,
+      "Jardim América": 2,
+      "Vila Progresso": 1,
+      "Vila União": 14,
+      "Vila Industrial": 1,
+      "São José": 1,
+      "Parque das Flores": 15
+    },
+    "byBusRoute": {
+      "Linha 500": 41,
+      "Linha 600": 3,
+      "Linha 200": 4,
+      "Linha 400": 4,
+      "Linha 100": 1
+    },
+    "byClass": {
+      "9b": 2,
+      "9c": 5,
+      "7b": 7,
+      "6a": 3,
+      "8b": 3,
+      "7a": 5,
+      "6b": 2,
+      "7c": 7,
+      "9a": 6,
+      "8a": 6,
+      "6c": 5,
+      "8c": 2
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "totalAbsences": 19,
+    "byNeighborhood": {
+      "Jardim Europa": 2,
+      "Alto da Serra": 3,
+      "Vila União": 2,
+      "Zona Rural Norte": 3,
+      "Jardim América": 1,
+      "Parque São Paulo": 3,
+      "Jardim Paulista": 1,
+      "São José": 2,
+      "Santa Cruz": 1,
+      "Vila Industrial": 1
+    },
+    "byBusRoute": {
+      "Linha 400": 5,
+      "Linha 500": 5,
+      "Linha 600": 3,
+      "Linha 200": 1,
+      "Linha 300": 4,
+      "Linha 100": 1
+    },
+    "byClass": {
+      "8b": 1,
+      "6c": 1,
+      "7c": 1,
+      "7a": 3,
+      "6a": 1,
+      "9a": 1,
+      "8c": 2,
+      "7b": 2,
+      "6b": 3,
+      "9c": 1,
+      "8a": 1,
+      "9b": 2
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "totalAbsences": 19,
+    "byNeighborhood": {
+      "São José": 2,
+      "Jardim Europa": 3,
+      "Jardim Paulista": 1,
+      "Vila Progresso": 1,
+      "Parque das Flores": 2,
+      "Bela Vista": 1,
+      "Centro": 1,
+      "Jardim América": 1,
+      "Zona Rural Norte": 2,
+      "Santa Cruz": 1,
+      "Vila União": 1,
+      "Parque São Paulo": 3
+    },
+    "byBusRoute": {
+      "Linha 400": 5,
+      "Linha 100": 2,
+      "Linha 200": 2,
+      "Linha 500": 3,
+      "Linha 300": 5,
+      "Linha 600": 2
+    },
+    "byClass": {
+      "9a": 3,
+      "8b": 2,
+      "8a": 2,
+      "9b": 3,
+      "7b": 1,
+      "7a": 3,
+      "6a": 2,
+      "8c": 1,
+      "7c": 1,
+      "9c": 1
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "totalAbsences": 28,
+    "byNeighborhood": {
+      "Vila Industrial": 2,
+      "Alto da Serra": 3,
+      "Jardim Paulista": 2,
+      "Zona Rural Norte": 19,
+      "Parque São Paulo": 1,
+      "Vila Progresso": 1
+    },
+    "byBusRoute": {
+      "Linha 400": 2,
+      "Linha 500": 3,
+      "Linha 100": 2,
+      "Linha 600": 19,
+      "Linha 300": 1,
+      "Linha 200": 1
+    },
+    "byClass": {
+      "7a": 4,
+      "6c": 2,
+      "7c": 3,
+      "7b": 2,
+      "9a": 2,
+      "6b": 2,
+      "9c": 4,
+      "9b": 2,
+      "6a": 3,
+      "8a": 2,
+      "8b": 2
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "totalAbsences": 15,
+    "byNeighborhood": {
+      "Vila Nova": 1,
+      "Jardim Paulista": 3,
+      "Jardim Europa": 2,
+      "Vila Industrial": 1,
+      "Parque das Flores": 1,
+      "Jardim América": 1,
+      "Zona Rural Norte": 1,
+      "São José": 1,
+      "Bela Vista": 2,
+      "Vila União": 1,
+      "Santa Cruz": 1
+    },
+    "byBusRoute": {
+      "Linha 200": 2,
+      "Linha 100": 3,
+      "Linha 400": 4,
+      "Linha 500": 2,
+      "Linha 600": 1,
+      "Linha 300": 3
+    },
+    "byClass": {
+      "8a": 2,
+      "9b": 3,
+      "9a": 1,
+      "7c": 1,
+      "7b": 2,
+      "8c": 1,
+      "6a": 1,
+      "7a": 1,
+      "8b": 1,
+      "6c": 1,
+      "6b": 1
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "totalAbsences": 19,
+    "byNeighborhood": {
+      "Jardim América": 1,
+      "Alto da Serra": 1,
+      "Vila União": 3,
+      "Vila Progresso": 1,
+      "Centro": 2,
+      "Vila Nova": 3,
+      "Santa Cruz": 2,
+      "Vila Industrial": 1,
+      "Bela Vista": 1,
+      "Parque São Paulo": 1,
+      "São José": 1,
+      "Zona Rural Norte": 2
+    },
+    "byBusRoute": {
+      "Linha 200": 5,
+      "Linha 500": 4,
+      "Linha 100": 2,
+      "Linha 300": 4,
+      "Linha 400": 2,
+      "Linha 600": 2
+    },
+    "byClass": {
+      "8b": 2,
+      "9a": 3,
+      "6b": 4,
+      "9c": 4,
+      "7c": 1,
+      "7b": 3,
+      "8c": 1,
+      "8a": 1
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "totalAbsences": 15,
+    "byNeighborhood": {
+      "Vila Progresso": 3,
+      "Zona Rural Norte": 1,
+      "Santa Cruz": 3,
+      "Centro": 1,
+      "Jardim Paulista": 1,
+      "Vila União": 1,
+      "Parque São Paulo": 1,
+      "Parque das Flores": 1,
+      "São José": 2,
+      "Vila Industrial": 1
+    },
+    "byBusRoute": {
+      "Linha 200": 3,
+      "Linha 600": 1,
+      "Linha 300": 4,
+      "Linha 100": 2,
+      "Linha 500": 2,
+      "Linha 400": 3
+    },
+    "byClass": {
+      "9b": 2,
+      "6c": 5,
+      "7b": 1,
+      "9c": 2,
+      "6b": 1,
+      "8c": 1,
+      "9a": 1,
+      "8a": 1,
+      "7c": 1
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "totalAbsences": 17,
+    "byNeighborhood": {
+      "Alto da Serra": 3,
+      "Bela Vista": 2,
+      "Vila União": 1,
+      "Santa Cruz": 1,
+      "Vila Nova": 3,
+      "Parque das Flores": 1,
+      "Vila Industrial": 1,
+      "Parque São Paulo": 2,
+      "Jardim Europa": 1,
+      "São José": 1,
+      "Jardim América": 1
+    },
+    "byBusRoute": {
+      "Linha 500": 5,
+      "Linha 300": 5,
+      "Linha 200": 4,
+      "Linha 400": 3
+    },
+    "byClass": {
+      "9b": 2,
+      "9a": 1,
+      "6b": 3,
+      "7b": 3,
+      "8a": 2,
+      "8c": 4,
+      "8b": 1,
+      "6a": 1
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "totalAbsences": 20,
+    "byNeighborhood": {
+      "São José": 7,
+      "Alto da Serra": 1,
+      "Bela Vista": 4,
+      "Jardim Paulista": 1,
+      "Jardim Europa": 2,
+      "Jardim América": 1,
+      "Santa Cruz": 1,
+      "Parque das Flores": 1,
+      "Vila Industrial": 1,
+      "Vila Progresso": 1
+    },
+    "byBusRoute": {
+      "Linha 400": 10,
+      "Linha 500": 2,
+      "Linha 300": 5,
+      "Linha 100": 1,
+      "Linha 200": 2
+    },
+    "byClass": {
+      "9a": 3,
+      "9b": 3,
+      "8b": 2,
+      "7c": 1,
+      "7b": 1,
+      "8c": 3,
+      "6b": 2,
+      "7a": 3,
+      "6a": 1,
+      "6c": 1
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "totalAbsences": 10,
+    "byNeighborhood": {
+      "Alto da Serra": 2,
+      "Vila União": 1,
+      "Bela Vista": 1,
+      "Parque das Flores": 2,
+      "São José": 1,
+      "Jardim América": 1,
+      "Jardim Europa": 1,
+      "Zona Rural Norte": 1
+    },
+    "byBusRoute": {
+      "Linha 500": 5,
+      "Linha 300": 1,
+      "Linha 400": 2,
+      "Linha 200": 1,
+      "Linha 600": 1
+    },
+    "byClass": {
+      "7c": 1,
+      "8a": 1,
+      "8b": 1,
+      "9a": 2,
+      "8c": 1,
+      "6a": 2,
+      "6b": 1,
+      "7a": 1
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "totalAbsences": 12,
+    "byNeighborhood": {
+      "Alto da Serra": 1,
+      "Jardim Europa": 1,
+      "Jardim Paulista": 2,
+      "Zona Rural Norte": 1,
+      "Vila Nova": 1,
+      "Jardim América": 1,
+      "Parque das Flores": 1,
+      "Centro": 1,
+      "Vila União": 1,
+      "Parque São Paulo": 1,
+      "Santa Cruz": 1
+    },
+    "byBusRoute": {
+      "Linha 500": 3,
+      "Linha 400": 1,
+      "Linha 100": 3,
+      "Linha 600": 1,
+      "Linha 200": 2,
+      "Linha 300": 2
+    },
+    "byClass": {
+      "7c": 1,
+      "8a": 2,
+      "8c": 3,
+      "7b": 1,
+      "6c": 2,
+      "9b": 1,
+      "8b": 1,
+      "9a": 1
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "totalAbsences": 15,
+    "byNeighborhood": {
+      "São José": 2,
+      "Jardim América": 2,
+      "Bela Vista": 1,
+      "Vila Industrial": 2,
+      "Centro": 1,
+      "Vila Progresso": 1,
+      "Vila Nova": 1,
+      "Santa Cruz": 1,
+      "Parque São Paulo": 1,
+      "Jardim Europa": 2,
+      "Vila União": 1
+    },
+    "byBusRoute": {
+      "Linha 400": 6,
+      "Linha 200": 4,
+      "Linha 300": 3,
+      "Linha 100": 1,
+      "Linha 500": 1
+    },
+    "byClass": {
+      "6a": 2,
+      "8c": 1,
+      "6b": 1,
+      "9b": 3,
+      "9a": 2,
+      "9c": 2,
+      "8a": 1,
+      "7a": 2,
+      "8b": 1
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "totalAbsences": 15,
+    "byNeighborhood": {
+      "Jardim América": 1,
+      "Jardim Europa": 2,
+      "Vila Progresso": 2,
+      "Bela Vista": 3,
+      "Parque das Flores": 1,
+      "São José": 3,
+      "Zona Rural Norte": 1,
+      "Santa Cruz": 1,
+      "Vila União": 1
+    },
+    "byBusRoute": {
+      "Linha 200": 3,
+      "Linha 400": 5,
+      "Linha 300": 4,
+      "Linha 500": 2,
+      "Linha 600": 1
+    },
+    "byClass": {
+      "8b": 2,
+      "6b": 2,
+      "9b": 1,
+      "6a": 1,
+      "8a": 2,
+      "7b": 1,
+      "9a": 3,
+      "9c": 1,
+      "7c": 2
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "totalAbsences": 10,
+    "byNeighborhood": {
+      "São José": 2,
+      "Vila Progresso": 1,
+      "Jardim Europa": 2,
+      "Vila União": 1,
+      "Santa Cruz": 1,
+      "Vila Nova": 1,
+      "Centro": 1,
+      "Parque das Flores": 1
+    },
+    "byBusRoute": {
+      "Linha 400": 4,
+      "Linha 200": 2,
+      "Linha 500": 2,
+      "Linha 300": 1,
+      "Linha 100": 1
+    },
+    "byClass": {
+      "7c": 3,
+      "9c": 1,
+      "8c": 1,
+      "8a": 2,
+      "7b": 1,
+      "6c": 2
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "totalAbsences": 17,
+    "byNeighborhood": {
+      "Bela Vista": 1,
+      "Jardim Paulista": 1,
+      "Parque São Paulo": 3,
+      "Jardim Europa": 2,
+      "Parque das Flores": 3,
+      "Centro": 1,
+      "São José": 1,
+      "Jardim América": 2,
+      "Vila Industrial": 1,
+      "Vila Nova": 1,
+      "Zona Rural Norte": 1
+    },
+    "byBusRoute": {
+      "Linha 300": 4,
+      "Linha 100": 2,
+      "Linha 400": 4,
+      "Linha 500": 3,
+      "Linha 200": 3,
+      "Linha 600": 1
+    },
+    "byClass": {
+      "7c": 1,
+      "9c": 4,
+      "8c": 3,
+      "7b": 2,
+      "8a": 1,
+      "9a": 3,
+      "9b": 1,
+      "6b": 1,
+      "7a": 1
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "totalAbsences": 13,
+    "byNeighborhood": {
+      "Jardim Europa": 3,
+      "Jardim Paulista": 1,
+      "Vila União": 2,
+      "Parque das Flores": 1,
+      "Centro": 1,
+      "Bela Vista": 1,
+      "Vila Industrial": 1,
+      "Jardim América": 1,
+      "Vila Nova": 1,
+      "Zona Rural Norte": 1
+    },
+    "byBusRoute": {
+      "Linha 400": 4,
+      "Linha 100": 2,
+      "Linha 500": 3,
+      "Linha 300": 1,
+      "Linha 200": 2,
+      "Linha 600": 1
+    },
+    "byClass": {
+      "9a": 2,
+      "6b": 3,
+      "8c": 1,
+      "8b": 2,
+      "7b": 2,
+      "9c": 2,
+      "7c": 1
+    }
+  },
+  {
+    "date": "2025-10-16",
+    "totalAbsences": 12,
+    "byNeighborhood": {
+      "Vila Nova": 1,
+      "Jardim Paulista": 1,
+      "Vila União": 2,
+      "Centro": 2,
+      "Parque das Flores": 1,
+      "Alto da Serra": 1,
+      "Zona Rural Norte": 1,
+      "Jardim América": 1,
+      "Santa Cruz": 1,
+      "Vila Progresso": 1
+    },
+    "byBusRoute": {
+      "Linha 200": 3,
+      "Linha 100": 3,
+      "Linha 500": 4,
+      "Linha 600": 1,
+      "Linha 300": 1
+    },
+    "byClass": {
+      "8a": 1,
+      "9a": 3,
+      "6b": 1,
+      "7b": 2,
+      "8b": 1,
+      "9c": 1,
+      "9b": 3
+    }
+  },
+  {
+    "date": "2025-10-15",
+    "totalAbsences": 13,
+    "byNeighborhood": {
+      "Parque São Paulo": 1,
+      "Vila União": 4,
+      "Bela Vista": 2,
+      "Centro": 2,
+      "Zona Rural Norte": 2,
+      "Vila Progresso": 1,
+      "São José": 1
+    },
+    "byBusRoute": {
+      "Linha 300": 3,
+      "Linha 500": 4,
+      "Linha 100": 2,
+      "Linha 600": 2,
+      "Linha 200": 1,
+      "Linha 400": 1
+    },
+    "byClass": {
+      "7a": 2,
+      "6b": 4,
+      "9a": 1,
+      "9b": 1,
+      "7b": 2,
+      "6c": 2,
+      "6a": 1
+    }
+  },
+  {
+    "date": "2025-10-14",
+    "totalAbsences": 9,
+    "byNeighborhood": {
+      "Bela Vista": 2,
+      "Vila União": 1,
+      "Vila Progresso": 2,
+      "São José": 3,
+      "Jardim Paulista": 1
+    },
+    "byBusRoute": {
+      "Linha 300": 2,
+      "Linha 500": 1,
+      "Linha 200": 2,
+      "Linha 400": 3,
+      "Linha 100": 1
+    },
+    "byClass": {
+      "7c": 2,
+      "6b": 1,
+      "8b": 1,
+      "7a": 1,
+      "6c": 1,
+      "8c": 1,
+      "9c": 1,
+      "8a": 1
+    }
+  },
+  {
+    "date": "2025-10-13",
+    "totalAbsences": 10,
+    "byNeighborhood": {
+      "Vila Industrial": 1,
+      "Vila Progresso": 3,
+      "Jardim América": 1,
+      "Bela Vista": 1,
+      "Parque São Paulo": 1,
+      "São José": 1,
+      "Santa Cruz": 1,
+      "Jardim Paulista": 1
+    },
+    "byBusRoute": {
+      "Linha 400": 2,
+      "Linha 200": 4,
+      "Linha 300": 3,
+      "Linha 100": 1
+    },
+    "byClass": {
+      "8b": 2,
+      "9c": 1,
+      "7a": 1,
+      "6b": 1,
+      "7b": 1,
+      "8c": 2,
+      "9a": 1,
+      "7c": 1
+    }
+  }
+]

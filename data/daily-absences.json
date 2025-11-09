@@ -1,0 +1,3206 @@
+[
+  {
+    "studentId": "5",
+    "studentName": "Ana Silva",
+    "class": "9a",
+    "date": "2025-11-09",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "12",
+    "studentName": "Bruno Oliveira",
+    "class": "8b",
+    "date": "2025-11-09",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "28",
+    "studentName": "Carla Santos",
+    "class": "7c",
+    "date": "2025-11-09",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "35",
+    "studentName": "Diego Ferreira",
+    "class": "6a",
+    "date": "2025-11-09",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "41",
+    "studentName": "Elisa Teixeira",
+    "class": "9c",
+    "date": "2025-11-09",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "67",
+    "studentName": "Renata Pereira",
+    "class": "7b",
+    "date": "2025-11-09",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "78",
+    "studentName": "Gustavo Lima",
+    "class": "8a",
+    "date": "2025-11-09",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "89",
+    "studentName": "Helena Rocha",
+    "class": "6b",
+    "date": "2025-11-09",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "104",
+    "studentName": "Igor Mendes",
+    "class": "7a",
+    "date": "2025-11-09",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "118",
+    "studentName": "Julia Martins",
+    "class": "9b",
+    "date": "2025-11-09",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "139",
+    "studentName": "Kevin Alves",
+    "class": "8c",
+    "date": "2025-11-09",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "156",
+    "studentName": "Laura Batista",
+    "class": "6c",
+    "date": "2025-11-09",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "172",
+    "studentName": "Mariano Costa",
+    "class": "9a",
+    "date": "2025-11-09",
+    "neighborhood": "São José",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "189",
+    "studentName": "Natalia Gomes",
+    "class": "7b",
+    "date": "2025-11-09",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "203",
+    "studentName": "Oscar Ribeiro",
+    "class": "8b",
+    "date": "2025-11-09",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "4",
+    "studentName": "Daniel Santos",
+    "class": "9b",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "42",
+    "studentName": "Elisa Teixeira",
+    "class": "9c",
+    "date": "2025-11-07",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "67",
+    "studentName": "Renata Pereira",
+    "class": "7b",
+    "date": "2025-11-07",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "87",
+    "studentName": "Felipe Machado",
+    "class": "6a",
+    "date": "2025-11-07",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "106",
+    "studentName": "Heloísa Carvalho",
+    "class": "8b",
+    "date": "2025-11-07",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "131",
+    "studentName": "Rafael Mendes",
+    "class": "7b",
+    "date": "2025-11-07",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "142",
+    "studentName": "Fernanda Cardoso",
+    "class": "7a",
+    "date": "2025-11-07",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "153",
+    "studentName": "Heitor Cardoso",
+    "class": "6b",
+    "date": "2025-11-07",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "171",
+    "studentName": "Emanuelly Rodrigues",
+    "class": "9c",
+    "date": "2025-11-07",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "181",
+    "studentName": "Isadora Nunes",
+    "class": "7c",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "205",
+    "studentName": "Isabella Almeida",
+    "class": "8b",
+    "date": "2025-11-07",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "210",
+    "studentName": "Maria Duarte",
+    "class": "9a",
+    "date": "2025-11-07",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "250",
+    "studentName": "Lucas Santana",
+    "class": "6a",
+    "date": "2025-11-07",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "302",
+    "studentName": "Bernardo Carvalho",
+    "class": "8a",
+    "date": "2025-11-07",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "4",
+    "studentName": "Daniel Santos",
+    "class": "9b",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "20",
+    "studentName": "Daniel Nunes",
+    "class": "8a",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "49",
+    "studentName": "Gabriel Cardoso",
+    "class": "7c",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "53",
+    "studentName": "Lara Santana",
+    "class": "8a",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "59",
+    "studentName": "Rodrigo Ramos",
+    "class": "7b",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "78",
+    "studentName": "Giovanna Silva",
+    "class": "7c",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "94",
+    "studentName": "Francisco Alves",
+    "class": "9a",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "100",
+    "studentName": "Paulo Dias",
+    "class": "6c",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "101",
+    "studentName": "João Silva",
+    "class": "7a",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "102",
+    "studentName": "Davi Barbosa",
+    "class": "8a",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "103",
+    "studentName": "Luiza Pereira",
+    "class": "8c",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "104",
+    "studentName": "Natália Dias",
+    "class": "7a",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "109",
+    "studentName": "Diego Lopes",
+    "class": "8a",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "114",
+    "studentName": "Carolina Dias",
+    "class": "9a",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "119",
+    "studentName": "Nicolas Azevedo",
+    "class": "9c",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "127",
+    "studentName": "Gustavo Rocha",
+    "class": "6c",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "132",
+    "studentName": "André Ramos",
+    "class": "6c",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "133",
+    "studentName": "Carolina Xavier",
+    "class": "9a",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "158",
+    "studentName": "Daniel Oliveira",
+    "class": "7b",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "162",
+    "studentName": "Patrícia Ramos",
+    "class": "7a",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "163",
+    "studentName": "Helena Gomes",
+    "class": "8b",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "181",
+    "studentName": "Isadora Nunes",
+    "class": "7c",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "188",
+    "studentName": "Vinícius Mendes",
+    "class": "7b",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "201",
+    "studentName": "Caio Pinto",
+    "class": "6a",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "215",
+    "studentName": "Gustavo Ramos",
+    "class": "7b",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "216",
+    "studentName": "Natália Cunha",
+    "class": "8a",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "227",
+    "studentName": "Yasmin Cunha",
+    "class": "7c",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "241",
+    "studentName": "Gabriel Silva",
+    "class": "7c",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "244",
+    "studentName": "Camila Nunes",
+    "class": "6c",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "247",
+    "studentName": "Elisa Costa",
+    "class": "7c",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "258",
+    "studentName": "Maria Xavier",
+    "class": "9c",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "278",
+    "studentName": "Gustavo Barbosa",
+    "class": "6b",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "279",
+    "studentName": "Thiago Nunes",
+    "class": "6c",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "280",
+    "studentName": "Maria Freitas",
+    "class": "8c",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "281",
+    "studentName": "Ana Clara Cavalcanti",
+    "class": "9a",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "286",
+    "studentName": "Ana Júlia Moura",
+    "class": "7b",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "296",
+    "studentName": "Guilherme Cardoso",
+    "class": "7a",
+    "date": "2025-11-07",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "297",
+    "studentName": "Helena Azevedo",
+    "class": "9a",
+    "date": "2025-11-07",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "299",
+    "studentName": "Matheus Rocha",
+    "class": "9c",
+    "date": "2025-11-07",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": "Possível problema de transporte"
+  },
+  {
+    "studentId": "8",
+    "studentName": "Hugo Pereira",
+    "class": "8b",
+    "date": "2025-11-06",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "37",
+    "studentName": "André Rocha",
+    "class": "6c",
+    "date": "2025-11-06",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "78",
+    "studentName": "Giovanna Silva",
+    "class": "7c",
+    "date": "2025-11-06",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "80",
+    "studentName": "Pedro Fernandes",
+    "class": "7a",
+    "date": "2025-11-06",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "87",
+    "studentName": "Felipe Machado",
+    "class": "6a",
+    "date": "2025-11-06",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "104",
+    "studentName": "Natália Dias",
+    "class": "7a",
+    "date": "2025-11-06",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "108",
+    "studentName": "Valentina Santana",
+    "class": "9a",
+    "date": "2025-11-06",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "115",
+    "studentName": "Enzo Moreira",
+    "class": "7a",
+    "date": "2025-11-06",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "126",
+    "studentName": "Carlos Moreira",
+    "class": "8c",
+    "date": "2025-11-06",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "131",
+    "studentName": "Rafael Mendes",
+    "class": "7b",
+    "date": "2025-11-06",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "141",
+    "studentName": "Luiza Campos",
+    "class": "6b",
+    "date": "2025-11-06",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "146",
+    "studentName": "Marcelo Pereira",
+    "class": "9c",
+    "date": "2025-11-06",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "182",
+    "studentName": "Juliana Xavier",
+    "class": "8a",
+    "date": "2025-11-06",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "192",
+    "studentName": "Pedro Fernandes",
+    "class": "8c",
+    "date": "2025-11-06",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "211",
+    "studentName": "Yasmin Machado",
+    "class": "9b",
+    "date": "2025-11-06",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "221",
+    "studentName": "Leonardo Martins",
+    "class": "9b",
+    "date": "2025-11-06",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "232",
+    "studentName": "Maria Xavier",
+    "class": "6b",
+    "date": "2025-11-06",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "263",
+    "studentName": "Natália Pinto",
+    "class": "6b",
+    "date": "2025-11-06",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "286",
+    "studentName": "Ana Júlia Moura",
+    "class": "7b",
+    "date": "2025-11-06",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "3",
+    "studentName": "Carla Mendes",
+    "class": "9a",
+    "date": "2025-11-05",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "8",
+    "studentName": "Hugo Pereira",
+    "class": "8b",
+    "date": "2025-11-05",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "30",
+    "studentName": "Marcelo Machado",
+    "class": "8a",
+    "date": "2025-11-05",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "43",
+    "studentName": "Victor Vieira",
+    "class": "9b",
+    "date": "2025-11-05",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "62",
+    "studentName": "Júlia Nunes",
+    "class": "9b",
+    "date": "2025-11-05",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "90",
+    "studentName": "Fernanda Costa",
+    "class": "7b",
+    "date": "2025-11-05",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "101",
+    "studentName": "João Silva",
+    "class": "7a",
+    "date": "2025-11-05",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "116",
+    "studentName": "Lívia Ribeiro",
+    "class": "6a",
+    "date": "2025-11-05",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "117",
+    "studentName": "Leonardo Correia",
+    "class": "9a",
+    "date": "2025-11-05",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "138",
+    "studentName": "Guilherme Gomes",
+    "class": "8c",
+    "date": "2025-11-05",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "151",
+    "studentName": "Emanuel Lima",
+    "class": "8b",
+    "date": "2025-11-05",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "162",
+    "studentName": "Patrícia Ramos",
+    "class": "7a",
+    "date": "2025-11-05",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "199",
+    "studentName": "Davi Xavier",
+    "class": "7c",
+    "date": "2025-11-05",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "203",
+    "studentName": "Lorena Correia",
+    "class": "9b",
+    "date": "2025-11-05",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "220",
+    "studentName": "Heitor Ramos",
+    "class": "7a",
+    "date": "2025-11-05",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "226",
+    "studentName": "Pietro Martins",
+    "class": "8a",
+    "date": "2025-11-05",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "248",
+    "studentName": "Enzo Barbosa",
+    "class": "9a",
+    "date": "2025-11-05",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "253",
+    "studentName": "Lucca Cunha",
+    "class": "9c",
+    "date": "2025-11-05",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "295",
+    "studentName": "Lorena Nunes",
+    "class": "6a",
+    "date": "2025-11-05",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "31",
+    "studentName": "Benício Pereira",
+    "class": "7a",
+    "date": "2025-11-04",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "37",
+    "studentName": "André Rocha",
+    "class": "6c",
+    "date": "2025-11-04",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "41",
+    "studentName": "Thiago Nogueira",
+    "class": "7c",
+    "date": "2025-11-04",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "59",
+    "studentName": "Rodrigo Ramos",
+    "class": "7b",
+    "date": "2025-11-04",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "80",
+    "studentName": "Pedro Fernandes",
+    "class": "7a",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "88",
+    "studentName": "Miguel Dias",
+    "class": "9a",
+    "date": "2025-11-04",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "104",
+    "studentName": "Natália Dias",
+    "class": "7a",
+    "date": "2025-11-04",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "150",
+    "studentName": "Nicolas Xavier",
+    "class": "6b",
+    "date": "2025-11-04",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "249",
+    "studentName": "Emanuel Dias",
+    "class": "9c",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "292",
+    "studentName": "Pietro Santos",
+    "class": "6c",
+    "date": "2025-11-04",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "301",
+    "studentName": "Fernanda Almeida",
+    "class": "7c",
+    "date": "2025-11-04",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "1",
+    "studentName": "Ana Silva",
+    "class": "9a",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "19",
+    "studentName": "Enzo Nunes",
+    "class": "9b",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "80",
+    "studentName": "Pedro Fernandes",
+    "class": "7a",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "87",
+    "studentName": "Felipe Machado",
+    "class": "6a",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "91",
+    "studentName": "Daniel Monteiro",
+    "class": "7b",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "111",
+    "studentName": "Davi Rodrigues",
+    "class": "9c",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "113",
+    "studentName": "Fernanda Vieira",
+    "class": "8a",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "134",
+    "studentName": "Thiago Azevedo",
+    "class": "8b",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "140",
+    "studentName": "Heloísa Souza",
+    "class": "8a",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "151",
+    "studentName": "Emanuel Lima",
+    "class": "8b",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "211",
+    "studentName": "Yasmin Machado",
+    "class": "9b",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "249",
+    "studentName": "Emanuel Dias",
+    "class": "9c",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "250",
+    "studentName": "Lucas Santana",
+    "class": "6a",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "253",
+    "studentName": "Lucca Cunha",
+    "class": "9c",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "268",
+    "studentName": "Bianca Monteiro",
+    "class": "6b",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "306",
+    "studentName": "Ana Araújo",
+    "class": "6a",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "308",
+    "studentName": "Pedro Costa",
+    "class": "7c",
+    "date": "2025-11-04",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": "Possível problema na região"
+  },
+  {
+    "studentId": "6",
+    "studentName": "Felipe Oliveira",
+    "class": "8a",
+    "date": "2025-11-03",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "17",
+    "studentName": "Bernardo Nunes",
+    "class": "9b",
+    "date": "2025-11-03",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "22",
+    "studentName": "Vitória Nascimento",
+    "class": "9a",
+    "date": "2025-11-03",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "41",
+    "studentName": "Thiago Nogueira",
+    "class": "7c",
+    "date": "2025-11-03",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "57",
+    "studentName": "Valentina Lopes",
+    "class": "7b",
+    "date": "2025-11-03",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "82",
+    "studentName": "Rebeca Pinto",
+    "class": "9b",
+    "date": "2025-11-03",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "102",
+    "studentName": "Davi Barbosa",
+    "class": "8a",
+    "date": "2025-11-03",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "174",
+    "studentName": "Emanuelly Nunes",
+    "class": "8c",
+    "date": "2025-11-03",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "211",
+    "studentName": "Yasmin Machado",
+    "class": "9b",
+    "date": "2025-11-03",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "243",
+    "studentName": "Davi Fernandes",
+    "class": "6a",
+    "date": "2025-11-03",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "262",
+    "studentName": "Caio Pinto",
+    "class": "7a",
+    "date": "2025-11-03",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "274",
+    "studentName": "Francisco Lima",
+    "class": "8b",
+    "date": "2025-11-03",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "286",
+    "studentName": "Ana Júlia Moura",
+    "class": "7b",
+    "date": "2025-11-03",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "292",
+    "studentName": "Pietro Santos",
+    "class": "6c",
+    "date": "2025-11-03",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "303",
+    "studentName": "Priscila Alves",
+    "class": "6b",
+    "date": "2025-11-03",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "7",
+    "studentName": "Gabriela Lima",
+    "class": "8b",
+    "date": "2025-10-31",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "23",
+    "studentName": "Ana Clara Cardoso",
+    "class": "9a",
+    "date": "2025-10-31",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "34",
+    "studentName": "Paulo Correia",
+    "class": "6b",
+    "date": "2025-10-31",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "35",
+    "studentName": "Maria Eduarda Castro",
+    "class": "9c",
+    "date": "2025-10-31",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "78",
+    "studentName": "Giovanna Silva",
+    "class": "7c",
+    "date": "2025-10-31",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "86",
+    "studentName": "Antônio Oliveira",
+    "class": "7b",
+    "date": "2025-10-31",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "97",
+    "studentName": "Alice Moreira",
+    "class": "8c",
+    "date": "2025-10-31",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "170",
+    "studentName": "Juliana Cunha",
+    "class": "8b",
+    "date": "2025-10-31",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "182",
+    "studentName": "Juliana Xavier",
+    "class": "8a",
+    "date": "2025-10-31",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "187",
+    "studentName": "Lívia Rocha",
+    "class": "7b",
+    "date": "2025-10-31",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "200",
+    "studentName": "Bryan Oliveira",
+    "class": "9a",
+    "date": "2025-10-31",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "208",
+    "studentName": "Samuel Correia",
+    "class": "9c",
+    "date": "2025-10-31",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "219",
+    "studentName": "Isabella Dias",
+    "class": "7b",
+    "date": "2025-10-31",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "222",
+    "studentName": "João Nogueira",
+    "class": "6b",
+    "date": "2025-10-31",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "229",
+    "studentName": "Lucca Oliveira",
+    "class": "9a",
+    "date": "2025-10-31",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "253",
+    "studentName": "Lucca Cunha",
+    "class": "9c",
+    "date": "2025-10-31",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "268",
+    "studentName": "Bianca Monteiro",
+    "class": "6b",
+    "date": "2025-10-31",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "299",
+    "studentName": "Matheus Rocha",
+    "class": "9c",
+    "date": "2025-10-31",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "303",
+    "studentName": "Priscila Alves",
+    "class": "6b",
+    "date": "2025-10-31",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "18",
+    "studentName": "André Pereira",
+    "class": "9b",
+    "date": "2025-10-30",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "19",
+    "studentName": "Enzo Nunes",
+    "class": "9b",
+    "date": "2025-10-30",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "24",
+    "studentName": "Lucca Lima",
+    "class": "6c",
+    "date": "2025-10-30",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "25",
+    "studentName": "Diego Cunha",
+    "class": "6c",
+    "date": "2025-10-30",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "61",
+    "studentName": "Rebeca Moreira",
+    "class": "7b",
+    "date": "2025-10-30",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "68",
+    "studentName": "Cecília Pires",
+    "class": "9c",
+    "date": "2025-10-30",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "75",
+    "studentName": "Bruna Santana",
+    "class": "6b",
+    "date": "2025-10-30",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "81",
+    "studentName": "Ana Clara Moreira",
+    "class": "8c",
+    "date": "2025-10-30",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "88",
+    "studentName": "Miguel Dias",
+    "class": "9a",
+    "date": "2025-10-30",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "119",
+    "studentName": "Nicolas Azevedo",
+    "class": "9c",
+    "date": "2025-10-30",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "182",
+    "studentName": "Juliana Xavier",
+    "class": "8a",
+    "date": "2025-10-30",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "199",
+    "studentName": "Davi Xavier",
+    "class": "7c",
+    "date": "2025-10-30",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "239",
+    "studentName": "Helena Santana",
+    "class": "6c",
+    "date": "2025-10-30",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "277",
+    "studentName": "Paulo Rocha",
+    "class": "6c",
+    "date": "2025-10-30",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "300",
+    "studentName": "Alice Almeida",
+    "class": "6c",
+    "date": "2025-10-30",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "4",
+    "studentName": "Daniel Santos",
+    "class": "9b",
+    "date": "2025-10-29",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "23",
+    "studentName": "Ana Clara Cardoso",
+    "class": "9a",
+    "date": "2025-10-29",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "27",
+    "studentName": "João Costa",
+    "class": "6b",
+    "date": "2025-10-29",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "34",
+    "studentName": "Paulo Correia",
+    "class": "6b",
+    "date": "2025-10-29",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "59",
+    "studentName": "Rodrigo Ramos",
+    "class": "7b",
+    "date": "2025-10-29",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "65",
+    "studentName": "Beatriz Soares",
+    "class": "6b",
+    "date": "2025-10-29",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "93",
+    "studentName": "Benício Campos",
+    "class": "8a",
+    "date": "2025-10-29",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "97",
+    "studentName": "Alice Moreira",
+    "class": "8c",
+    "date": "2025-10-29",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "102",
+    "studentName": "Davi Barbosa",
+    "class": "8a",
+    "date": "2025-10-29",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "149",
+    "studentName": "Laura Melo",
+    "class": "7b",
+    "date": "2025-10-29",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "176",
+    "studentName": "Lorena Almeida",
+    "class": "8c",
+    "date": "2025-10-29",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "183",
+    "studentName": "Priscila Campos",
+    "class": "8c",
+    "date": "2025-10-29",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "205",
+    "studentName": "Isabella Almeida",
+    "class": "8b",
+    "date": "2025-10-29",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "243",
+    "studentName": "Davi Fernandes",
+    "class": "6a",
+    "date": "2025-10-29",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "259",
+    "studentName": "Davi Miranda",
+    "class": "7b",
+    "date": "2025-10-29",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "272",
+    "studentName": "Francisco Freitas",
+    "class": "8c",
+    "date": "2025-10-29",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "309",
+    "studentName": "André Ribeiro",
+    "class": "9b",
+    "date": "2025-10-29",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "3",
+    "studentName": "Carla Mendes",
+    "class": "9a",
+    "date": "2025-10-28",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "4",
+    "studentName": "Daniel Santos",
+    "class": "9b",
+    "date": "2025-10-28",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "32",
+    "studentName": "Diego Ferreira",
+    "class": "9b",
+    "date": "2025-10-28",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "43",
+    "studentName": "Victor Vieira",
+    "class": "9b",
+    "date": "2025-10-28",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "63",
+    "studentName": "Elisa Dias",
+    "class": "8b",
+    "date": "2025-10-28",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "77",
+    "studentName": "Maria Castro",
+    "class": "7c",
+    "date": "2025-10-28",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "90",
+    "studentName": "Fernanda Costa",
+    "class": "7b",
+    "date": "2025-10-28",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "106",
+    "studentName": "Heloísa Carvalho",
+    "class": "8b",
+    "date": "2025-10-28",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "107",
+    "studentName": "Lucas Alves",
+    "class": "8c",
+    "date": "2025-10-28",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "120",
+    "studentName": "Gabriel Melo",
+    "class": "6b",
+    "date": "2025-10-28",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "141",
+    "studentName": "Luiza Campos",
+    "class": "6b",
+    "date": "2025-10-28",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "143",
+    "studentName": "Giovanna Ferreira",
+    "class": "9a",
+    "date": "2025-10-28",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "152",
+    "studentName": "Ricardo Alves",
+    "class": "7a",
+    "date": "2025-10-28",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "162",
+    "studentName": "Patrícia Ramos",
+    "class": "7a",
+    "date": "2025-10-28",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "184",
+    "studentName": "Yasmin Duarte",
+    "class": "7a",
+    "date": "2025-10-28",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "243",
+    "studentName": "Davi Fernandes",
+    "class": "6a",
+    "date": "2025-10-28",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "276",
+    "studentName": "Vinícius Barbosa",
+    "class": "8c",
+    "date": "2025-10-28",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "277",
+    "studentName": "Paulo Rocha",
+    "class": "6c",
+    "date": "2025-10-28",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "282",
+    "studentName": "Eduardo Ribeiro",
+    "class": "8c",
+    "date": "2025-10-28",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "307",
+    "studentName": "Gabriel Oliveira",
+    "class": "9a",
+    "date": "2025-10-28",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "21",
+    "studentName": "Leonardo Azevedo",
+    "class": "7c",
+    "date": "2025-10-27",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "53",
+    "studentName": "Lara Santana",
+    "class": "8a",
+    "date": "2025-10-27",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "63",
+    "studentName": "Elisa Dias",
+    "class": "8b",
+    "date": "2025-10-27",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "94",
+    "studentName": "Francisco Alves",
+    "class": "9a",
+    "date": "2025-10-27",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "107",
+    "studentName": "Lucas Alves",
+    "class": "8c",
+    "date": "2025-10-27",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "108",
+    "studentName": "Valentina Santana",
+    "class": "9a",
+    "date": "2025-10-27",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "169",
+    "studentName": "Valentina Ribeiro",
+    "class": "6a",
+    "date": "2025-10-27",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "263",
+    "studentName": "Natália Pinto",
+    "class": "6b",
+    "date": "2025-10-27",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "267",
+    "studentName": "Thiago Pires",
+    "class": "6a",
+    "date": "2025-10-27",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "296",
+    "studentName": "Guilherme Cardoso",
+    "class": "7a",
+    "date": "2025-10-27",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "47",
+    "studentName": "Leonardo Dias",
+    "class": "7c",
+    "date": "2025-10-24",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "64",
+    "studentName": "Carolina Silva",
+    "class": "8a",
+    "date": "2025-10-24",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "71",
+    "studentName": "Pietro Ferreira",
+    "class": "8c",
+    "date": "2025-10-24",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "91",
+    "studentName": "Daniel Monteiro",
+    "class": "7b",
+    "date": "2025-10-24",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "97",
+    "studentName": "Alice Moreira",
+    "class": "8c",
+    "date": "2025-10-24",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "98",
+    "studentName": "Paulo Rocha",
+    "class": "8c",
+    "date": "2025-10-24",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "100",
+    "studentName": "Paulo Dias",
+    "class": "6c",
+    "date": "2025-10-24",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "110",
+    "studentName": "Joaquim Pinto",
+    "class": "9b",
+    "date": "2025-10-24",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "163",
+    "studentName": "Helena Gomes",
+    "class": "8b",
+    "date": "2025-10-24",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "226",
+    "studentName": "Pietro Martins",
+    "class": "8a",
+    "date": "2025-10-24",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "285",
+    "studentName": "Bruna Duarte",
+    "class": "9a",
+    "date": "2025-10-24",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "292",
+    "studentName": "Pietro Santos",
+    "class": "6c",
+    "date": "2025-10-24",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "28",
+    "studentName": "Carolina Ramos",
+    "class": "6a",
+    "date": "2025-10-23",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "38",
+    "studentName": "Beatriz Pereira",
+    "class": "8c",
+    "date": "2025-10-23",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "65",
+    "studentName": "Beatriz Soares",
+    "class": "6b",
+    "date": "2025-10-23",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "124",
+    "studentName": "Mariana Gomes",
+    "class": "9b",
+    "date": "2025-10-23",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "128",
+    "studentName": "Lucca Barbosa",
+    "class": "9a",
+    "date": "2025-10-23",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "135",
+    "studentName": "Enzo Pires",
+    "class": "9b",
+    "date": "2025-10-23",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "148",
+    "studentName": "Isabela Moura",
+    "class": "9b",
+    "date": "2025-10-23",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "161",
+    "studentName": "Davi Nogueira",
+    "class": "9c",
+    "date": "2025-10-23",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "169",
+    "studentName": "Valentina Ribeiro",
+    "class": "6a",
+    "date": "2025-10-23",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "182",
+    "studentName": "Juliana Xavier",
+    "class": "8a",
+    "date": "2025-10-23",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "193",
+    "studentName": "Diego Monteiro",
+    "class": "7a",
+    "date": "2025-10-23",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "205",
+    "studentName": "Isabella Almeida",
+    "class": "8b",
+    "date": "2025-10-23",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "237",
+    "studentName": "Mariana Freitas",
+    "class": "7a",
+    "date": "2025-10-23",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "299",
+    "studentName": "Matheus Rocha",
+    "class": "9c",
+    "date": "2025-10-23",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "307",
+    "studentName": "Gabriel Oliveira",
+    "class": "9a",
+    "date": "2025-10-23",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "7",
+    "studentName": "Gabriela Lima",
+    "class": "8b",
+    "date": "2025-10-22",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "14",
+    "studentName": "Heloísa Mendes",
+    "class": "6b",
+    "date": "2025-10-22",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "18",
+    "studentName": "André Pereira",
+    "class": "9b",
+    "date": "2025-10-22",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "26",
+    "studentName": "Rafael Fernandes",
+    "class": "6a",
+    "date": "2025-10-22",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "66",
+    "studentName": "Ricardo Pires",
+    "class": "8a",
+    "date": "2025-10-22",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "90",
+    "studentName": "Fernanda Costa",
+    "class": "7b",
+    "date": "2025-10-22",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "130",
+    "studentName": "Aline Cavalcanti",
+    "class": "9a",
+    "date": "2025-10-22",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "146",
+    "studentName": "Marcelo Pereira",
+    "class": "9c",
+    "date": "2025-10-22",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "151",
+    "studentName": "Emanuel Lima",
+    "class": "8b",
+    "date": "2025-10-22",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "153",
+    "studentName": "Heitor Cardoso",
+    "class": "6b",
+    "date": "2025-10-22",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "182",
+    "studentName": "Juliana Xavier",
+    "class": "8a",
+    "date": "2025-10-22",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "200",
+    "studentName": "Bryan Oliveira",
+    "class": "9a",
+    "date": "2025-10-22",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "227",
+    "studentName": "Yasmin Cunha",
+    "class": "7c",
+    "date": "2025-10-22",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "245",
+    "studentName": "Melissa Pereira",
+    "class": "7c",
+    "date": "2025-10-22",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "248",
+    "studentName": "Enzo Barbosa",
+    "class": "9a",
+    "date": "2025-10-22",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "13",
+    "studentName": "Lorena Moura",
+    "class": "7c",
+    "date": "2025-10-21",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "68",
+    "studentName": "Cecília Pires",
+    "class": "9c",
+    "date": "2025-10-21",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "73",
+    "studentName": "Leonardo Cavalcanti",
+    "class": "8c",
+    "date": "2025-10-21",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "181",
+    "studentName": "Isadora Nunes",
+    "class": "7c",
+    "date": "2025-10-21",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "182",
+    "studentName": "Juliana Xavier",
+    "class": "8a",
+    "date": "2025-10-21",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "198",
+    "studentName": "Lucca Xavier",
+    "class": "7c",
+    "date": "2025-10-21",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "219",
+    "studentName": "Isabella Dias",
+    "class": "7b",
+    "date": "2025-10-21",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "242",
+    "studentName": "João Miranda",
+    "class": "6c",
+    "date": "2025-10-21",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "279",
+    "studentName": "Thiago Nunes",
+    "class": "6c",
+    "date": "2025-10-21",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "302",
+    "studentName": "Bernardo Carvalho",
+    "class": "8a",
+    "date": "2025-10-21",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "16",
+    "studentName": "Bryan Lima",
+    "class": "7c",
+    "date": "2025-10-20",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "29",
+    "studentName": "Aline Souza",
+    "class": "9c",
+    "date": "2025-10-20",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "44",
+    "studentName": "Theo Pires",
+    "class": "8c",
+    "date": "2025-10-20",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "57",
+    "studentName": "Valentina Lopes",
+    "class": "7b",
+    "date": "2025-10-20",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "66",
+    "studentName": "Ricardo Pires",
+    "class": "8a",
+    "date": "2025-10-20",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "94",
+    "studentName": "Francisco Alves",
+    "class": "9a",
+    "date": "2025-10-20",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "119",
+    "studentName": "Nicolas Azevedo",
+    "class": "9c",
+    "date": "2025-10-20",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "126",
+    "studentName": "Carlos Moreira",
+    "class": "8c",
+    "date": "2025-10-20",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "135",
+    "studentName": "Enzo Pires",
+    "class": "9b",
+    "date": "2025-10-20",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "146",
+    "studentName": "Marcelo Pereira",
+    "class": "9c",
+    "date": "2025-10-20",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "154",
+    "studentName": "Otávio Duarte",
+    "class": "9c",
+    "date": "2025-10-20",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "167",
+    "studentName": "Vitória Martins",
+    "class": "8c",
+    "date": "2025-10-20",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "185",
+    "studentName": "Vitória Pereira",
+    "class": "9a",
+    "date": "2025-10-20",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "222",
+    "studentName": "João Nogueira",
+    "class": "6b",
+    "date": "2025-10-20",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "230",
+    "studentName": "Guilherme Monteiro",
+    "class": "7b",
+    "date": "2025-10-20",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "235",
+    "studentName": "Camila Alves",
+    "class": "7a",
+    "date": "2025-10-20",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "298",
+    "studentName": "Heitor Araújo",
+    "class": "9a",
+    "date": "2025-10-20",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "2",
+    "studentName": "Bruno Costa",
+    "class": "9a",
+    "date": "2025-10-17",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "14",
+    "studentName": "Heloísa Mendes",
+    "class": "6b",
+    "date": "2025-10-17",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "50",
+    "studentName": "Vitor Alves",
+    "class": "9a",
+    "date": "2025-10-17",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "75",
+    "studentName": "Bruna Santana",
+    "class": "6b",
+    "date": "2025-10-17",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "103",
+    "studentName": "Luiza Pereira",
+    "class": "8c",
+    "date": "2025-10-17",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "118",
+    "studentName": "João Melo",
+    "class": "8b",
+    "date": "2025-10-17",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "122",
+    "studentName": "Bryan Silva",
+    "class": "7b",
+    "date": "2025-10-17",
+    "neighborhood": "Jardim Europa",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "139",
+    "studentName": "Carolina Castro",
+    "class": "9c",
+    "date": "2025-10-17",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "149",
+    "studentName": "Laura Melo",
+    "class": "7b",
+    "date": "2025-10-17",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "163",
+    "studentName": "Helena Gomes",
+    "class": "8b",
+    "date": "2025-10-17",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "171",
+    "studentName": "Emanuelly Rodrigues",
+    "class": "9c",
+    "date": "2025-10-17",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "222",
+    "studentName": "João Nogueira",
+    "class": "6b",
+    "date": "2025-10-17",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "308",
+    "studentName": "Pedro Costa",
+    "class": "7c",
+    "date": "2025-10-17",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "40",
+    "studentName": "Laura Ramos",
+    "class": "8a",
+    "date": "2025-10-16",
+    "neighborhood": "Vila Nova",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "50",
+    "studentName": "Vitor Alves",
+    "class": "9a",
+    "date": "2025-10-16",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "75",
+    "studentName": "Bruna Santana",
+    "class": "6b",
+    "date": "2025-10-16",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "86",
+    "studentName": "Antônio Oliveira",
+    "class": "7b",
+    "date": "2025-10-16",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "94",
+    "studentName": "Francisco Alves",
+    "class": "9a",
+    "date": "2025-10-16",
+    "neighborhood": "Parque das Flores",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "108",
+    "studentName": "Valentina Santana",
+    "class": "9a",
+    "date": "2025-10-16",
+    "neighborhood": "Alto da Serra",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "134",
+    "studentName": "Thiago Azevedo",
+    "class": "8b",
+    "date": "2025-10-16",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "154",
+    "studentName": "Otávio Duarte",
+    "class": "9c",
+    "date": "2025-10-16",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "172",
+    "studentName": "Ana Clara Rodrigues",
+    "class": "7b",
+    "date": "2025-10-16",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "202",
+    "studentName": "Lucas Pires",
+    "class": "9b",
+    "date": "2025-10-16",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "203",
+    "studentName": "Lorena Correia",
+    "class": "9b",
+    "date": "2025-10-16",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "275",
+    "studentName": "Pedro Cardoso",
+    "class": "9b",
+    "date": "2025-10-16",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "33",
+    "studentName": "Pedro Lopes",
+    "class": "7a",
+    "date": "2025-10-15",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "34",
+    "studentName": "Paulo Correia",
+    "class": "6b",
+    "date": "2025-10-15",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "75",
+    "studentName": "Bruna Santana",
+    "class": "6b",
+    "date": "2025-10-15",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "123",
+    "studentName": "Aline Azevedo",
+    "class": "9a",
+    "date": "2025-10-15",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "125",
+    "studentName": "Vinícius Reis",
+    "class": "6b",
+    "date": "2025-10-15",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "135",
+    "studentName": "Enzo Pires",
+    "class": "9b",
+    "date": "2025-10-15",
+    "neighborhood": "Centro",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "158",
+    "studentName": "Daniel Oliveira",
+    "class": "7b",
+    "date": "2025-10-15",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "179",
+    "studentName": "Pietro Ramos",
+    "class": "6c",
+    "date": "2025-10-15",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "235",
+    "studentName": "Camila Alves",
+    "class": "7a",
+    "date": "2025-10-15",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "238",
+    "studentName": "Rafaela Araújo",
+    "class": "6b",
+    "date": "2025-10-15",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "270",
+    "studentName": "Samuel Melo",
+    "class": "6c",
+    "date": "2025-10-15",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "286",
+    "studentName": "Ana Júlia Moura",
+    "class": "7b",
+    "date": "2025-10-15",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "306",
+    "studentName": "Ana Araújo",
+    "class": "6a",
+    "date": "2025-10-15",
+    "neighborhood": "Zona Rural Norte",
+    "busRoute": "Linha 600",
+    "reason": null
+  },
+  {
+    "studentId": "16",
+    "studentName": "Bryan Lima",
+    "class": "7c",
+    "date": "2025-10-14",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "65",
+    "studentName": "Beatriz Soares",
+    "class": "6b",
+    "date": "2025-10-14",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "163",
+    "studentName": "Helena Gomes",
+    "class": "8b",
+    "date": "2025-10-14",
+    "neighborhood": "Vila União",
+    "busRoute": "Linha 500",
+    "reason": null
+  },
+  {
+    "studentId": "236",
+    "studentName": "Isabella Duarte",
+    "class": "7a",
+    "date": "2025-10-14",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "270",
+    "studentName": "Samuel Melo",
+    "class": "6c",
+    "date": "2025-10-14",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "276",
+    "studentName": "Vinícius Barbosa",
+    "class": "8c",
+    "date": "2025-10-14",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "290",
+    "studentName": "Lorenzo Almeida",
+    "class": "9c",
+    "date": "2025-10-14",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  },
+  {
+    "studentId": "301",
+    "studentName": "Fernanda Almeida",
+    "class": "7c",
+    "date": "2025-10-14",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "302",
+    "studentName": "Bernardo Carvalho",
+    "class": "8a",
+    "date": "2025-10-14",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "46",
+    "studentName": "João Cunha",
+    "class": "8b",
+    "date": "2025-10-13",
+    "neighborhood": "Vila Industrial",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "68",
+    "studentName": "Cecília Pires",
+    "class": "9c",
+    "date": "2025-10-13",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "92",
+    "studentName": "Bruno Barbosa",
+    "class": "8b",
+    "date": "2025-10-13",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "115",
+    "studentName": "Enzo Moreira",
+    "class": "7a",
+    "date": "2025-10-13",
+    "neighborhood": "Jardim América",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "120",
+    "studentName": "Gabriel Melo",
+    "class": "6b",
+    "date": "2025-10-13",
+    "neighborhood": "Bela Vista",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "194",
+    "studentName": "Isabella Pereira",
+    "class": "7b",
+    "date": "2025-10-13",
+    "neighborhood": "Vila Progresso",
+    "busRoute": "Linha 200",
+    "reason": null
+  },
+  {
+    "studentId": "272",
+    "studentName": "Francisco Freitas",
+    "class": "8c",
+    "date": "2025-10-13",
+    "neighborhood": "Parque São Paulo",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "276",
+    "studentName": "Vinícius Barbosa",
+    "class": "8c",
+    "date": "2025-10-13",
+    "neighborhood": "São José",
+    "busRoute": "Linha 400",
+    "reason": null
+  },
+  {
+    "studentId": "285",
+    "studentName": "Bruna Duarte",
+    "class": "9a",
+    "date": "2025-10-13",
+    "neighborhood": "Santa Cruz",
+    "busRoute": "Linha 300",
+    "reason": null
+  },
+  {
+    "studentId": "288",
+    "studentName": "Ana Cardoso",
+    "class": "7c",
+    "date": "2025-10-13",
+    "neighborhood": "Jardim Paulista",
+    "busRoute": "Linha 100",
+    "reason": null
+  }
+]
