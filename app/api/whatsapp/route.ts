@@ -65,6 +65,9 @@ export async function POST(request: NextRequest) {
 }
 
 async function sendAbsenceNotifications(absenceDate: string, studentIds?: string[]) {
+  // ⚠️ MODO DE TESTE: Enviar apenas para um número específico
+  const TEST_PHONE_NUMBER = "5583987365314" // Número de teste único
+  
   // Carregar dados de faltas e alunos
   const absencesPath = path.join(process.cwd(), 'data', 'daily-absences.json')
   const studentsPath = path.join(process.cwd(), 'data', 'students.json')
@@ -79,6 +82,9 @@ async function sendAbsenceNotifications(absenceDate: string, studentIds?: string
   if (studentIds && studentIds.length > 0) {
     targetAbsences = targetAbsences.filter((a: any) => studentIds.includes(a.studentId))
   }
+
+  // ⚠️ SEGURANÇA: Processar apenas a PRIMEIRA falta para evitar múltiplos envios
+  targetAbsences = targetAbsences.slice(0, 1)
 
   const notifications = readNotifications()
   const sent: any[] = []
@@ -120,30 +126,36 @@ Estamos aqui para ajudar! 🏫
 Atenciosamente,
 Equipe de Gestão Escolar`
 
+      // ⚠️ MODO DE TESTE: Substituir número do aluno pelo número de teste
+      const targetPhoneNumber = TEST_PHONE_NUMBER
+      
+      console.log(`🔒 MODO TESTE ATIVO - Enviando APENAS para: ${targetPhoneNumber}`)
+      console.log(`📋 Aluno original: ${student.name} (${student.motherPhone})`)
+      
       // Verifica se WhatsApp está pronto
       const whatsappService = await getWhatsAppService()
       
       if (whatsappService.isWhatsAppReady()) {
         try {
-          // Envia mensagem real via WhatsApp
-          await whatsappService.sendWhatsAppMessage(student.motherPhone, message)
-          console.log(`✅ WhatsApp message sent to ${student.motherName} (${student.motherPhone})`)
+          // Envia mensagem real via WhatsApp APENAS para o número de teste
+          await whatsappService.sendWhatsAppMessage(targetPhoneNumber, message)
+          console.log(`✅ WhatsApp message sent to TEST NUMBER (${targetPhoneNumber})`)
         } catch (error) {
-          console.error(`❌ Failed to send WhatsApp message to ${student.motherPhone}:`, error)
+          console.error(`❌ Failed to send WhatsApp message to ${targetPhoneNumber}:`, error)
           // Continua mesmo se falhar para registrar a notificação
         }
       } else {
         // Modo de demonstração quando WhatsApp não está conectado
-        console.log(`📱 [DEMO MODE] Simulating WhatsApp send to ${student.motherName} (${student.motherPhone})`)
+        console.log(`📱 [DEMO MODE] Simulating WhatsApp send to TEST NUMBER (${targetPhoneNumber})`)
       }
 
-      // Criar registro de notificação
+      // Criar registro de notificação (usando o número de teste)
       const newNotification = {
         id: String(Date.now()), // Usar timestamp para ID único
         studentId: student.id,
         studentName: student.name,
         motherName: student.motherName,
-        motherPhone: student.motherPhone,
+        motherPhone: targetPhoneNumber, // ⚠️ Usar número de teste
         date: absenceDate,
         messageSent: true,
         sentAt: new Date().toISOString(),
@@ -156,12 +168,15 @@ Equipe de Gestão Escolar`
       notifications.push(newNotification)
       
       // Registra para processamento automático de respostas
-      whatsappService.registerNotification(student.motherPhone, newNotification.id)
+      whatsappService.registerNotification(targetPhoneNumber, newNotification.id)
       sent.push({
         studentName: student.name,
         motherName: student.motherName,
-        motherPhone: student.motherPhone
+        motherPhone: targetPhoneNumber // ⚠️ Mostrar número de teste
       })
+      
+      // ⚠️ IMPORTANTE: Quebrar o loop após enviar UMA mensagem
+      break
     } catch (error) {
       console.error(`Error sending notification for student ${absence.studentId}:`, error)
       failed.push(absence.studentId)

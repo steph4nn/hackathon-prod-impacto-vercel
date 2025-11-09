@@ -151,7 +151,7 @@ ${Object.entries(busRoutePatterns)
   `.trim()
 
   const { text } = await generateText({
-    model: openai("gpt-4o-mini"),
+    model: openai("gpt-5-mini"),
     prompt: `Você é um coordenador educacional experiente analisando padrões de faltas escolares.
 
 ${context}
@@ -249,7 +249,7 @@ ${riskStudents
   `.trim()
 
   const { text } = await generateText({
-    model: openai("gpt-4o-mini"),
+    model: openai("gpt-5-mini"),
     prompt: `Você é um coordenador educacional especializado em prevenção de evasão escolar.
 
 ${context}
@@ -343,7 +343,7 @@ ${Object.entries(byClass)
   `.trim()
 
   const { text } = await generateText({
-    model: openai("gpt-4o-mini"),
+    model: openai("gpt-5-mini"),
     prompt: `Você é um assistente da coordenação escolar analisando as faltas do dia.
 
 ${context}
@@ -470,7 +470,7 @@ ${studentsNeedingHelp.map(s =>
   `.trim()
 
   const { text } = await generateText({
-    model: openai("gpt-4o-mini"),
+    model: openai("gpt-5-mini"),
     prompt: `Você é um coordenador pedagógico experiente analisando o desempenho acadêmico dos alunos.
 
 ${context}

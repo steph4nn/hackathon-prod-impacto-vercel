@@ -13,6 +13,7 @@ import { SmartAlertsSummary } from "@/components/dashboard/smart-alerts-summary"
 import { AbsenceNotificationsSummary } from "@/components/dashboard/absence-notifications-summary"
 import { getClassStats, getStudentsByClass } from "@/lib/mock-data"
 import { exportToCSV, exportDetailedCSV, exportToPDF } from "@/lib/export-utils"
+import { ThemeToggle } from "@/components/theme-toggle"
 import Link from "next/link"
 
 export default function DashboardPage() {
@@ -80,6 +81,8 @@ export default function DashboardPage() {
                   <DropdownMenuItem onClick={handleExportPDF}>Exportar PDF</DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
+
+              <ThemeToggle />
 
               <Select value={selectedClass} onValueChange={setSelectedClass}>
                 <SelectTrigger className="w-[200px]">

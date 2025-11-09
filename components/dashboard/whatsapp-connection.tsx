@@ -38,6 +38,12 @@ export function WhatsAppConnection() {
     try {
       const response = await fetch('/api/whatsapp/init?action=status')
       const data = await response.json()
+      console.log('📊 WhatsApp Status:', {
+        ready: data.ready,
+        hasQRCode: !!data.qrCode,
+        qrCodeLength: data.qrCode?.length || 0,
+        message: data.message
+      })
       setStatus(data)
     } catch (error) {
       console.error("Error checking WhatsApp status:", error)
@@ -53,13 +59,30 @@ export function WhatsAppConnection() {
       const data = await response.json()
       
       if (data.success) {
-        // Aguarda alguns segundos e verifica o status
-        setTimeout(checkStatus, 2000)
+        // Inicia polling mais agressivo para pegar o QR Code
+        let attempts = 0
+        const maxAttempts = 30 // 30 segundos
+        
+        const pollQRCode = setInterval(async () => {
+          attempts++
+          
+          // Busca o status
+          const statusResponse = await fetch('/api/whatsapp/init?action=status')
+          const statusData = await statusResponse.json()
+          setStatus(statusData)
+          
+          // Se conectou, tem QR Code ou excedeu tentativas, para o polling
+          if (statusData.ready || statusData.qrCode || attempts >= maxAttempts) {
+            clearInterval(pollQRCode)
+            setInitializing(false)
+          }
+        }, 1000) // Verifica a cada 1 segundo
+      } else {
+        setInitializing(false)
       }
     } catch (error) {
       console.error("Error initializing WhatsApp:", error)
       alert("❌ Erro ao inicializar WhatsApp")
-    } finally {
       setInitializing(false)
     }
   }
@@ -133,68 +156,66 @@ export function WhatsAppConnection() {
           </Alert>
         )}
 
-        {/* QR Code */}
-        {status?.qrCode && (
-          <div className="border rounded-lg p-4 bg-white">
-            <div className="flex items-center gap-2 mb-3">
-              <QrCode className="h-4 w-4" />
-              <span className="text-sm font-medium">Escaneie o QR Code:</span>
+        {/* QR Code ou Botão de Conectar */}
+        {!status?.ready ? (
+          status?.qrCode || initializing ? (
+            <div className="border rounded-lg p-4 bg-white dark:bg-card">
+              <div className="flex items-center gap-2 mb-3">
+                <QrCode className="h-4 w-4" />
+                <span className="text-sm font-medium">Escaneie o QR Code:</span>
+              </div>
+              {status?.qrCode ? (
+                <>
+                  <div className="flex justify-center">
+                    <img 
+                      src={`https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(status.qrCode)}`}
+                      alt="QR Code do WhatsApp"
+                      className="border rounded"
+                    />
+                  </div>
+                  <p className="text-xs text-muted-foreground mt-3 text-center">
+                    Abra o WhatsApp no seu celular e escaneie este código
+                  </p>
+                </>
+              ) : (
+                <div className="flex flex-col items-center justify-center py-8">
+                  <Spinner className="h-8 w-8 mb-3" />
+                  <p className="text-sm text-muted-foreground">Gerando QR Code...</p>
+                </div>
+              )}
             </div>
-            <div className="flex justify-center">
-              <img 
-                src={`https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(status.qrCode)}`}
-                alt="QR Code do WhatsApp"
-                className="border rounded"
-              />
-            </div>
-            <p className="text-xs text-muted-foreground mt-3 text-center">
-              Abra o WhatsApp no seu celular e escaneie este código
-            </p>
-          </div>
-        )}
-
-        {/* Ações */}
-        <div className="flex gap-2">
-          {!status?.ready ? (
+          ) : (
             <Button 
               onClick={initializeWhatsApp}
               disabled={initializing}
-              className="flex-1"
+              className="w-full"
             >
-              {initializing ? (
-                <>
-                  <Spinner className="mr-2" />
-                  Inicializando...
-                </>
-              ) : (
-                <>
-                  <Power className="mr-2 h-4 w-4" />
-                  Conectar WhatsApp
-                </>
-              )}
+              <Power className="mr-2 h-4 w-4" />
+              Conectar WhatsApp
             </Button>
-          ) : (
-            <Button 
-              onClick={disconnectWhatsApp}
-              disabled={loading}
-              variant="outline"
-              className="flex-1"
-            >
-              {loading ? (
-                <>
-                  <Spinner className="mr-2" />
-                  Desconectando...
-                </>
-              ) : (
-                <>
-                  <Power className="mr-2 h-4 w-4" />
-                  Desconectar
-                </>
-              )}
-            </Button>
-          )}
-        </div>
+          )
+        ) : (
+          <Button 
+            onClick={disconnectWhatsApp}
+            disabled={loading}
+            variant="outline"
+            className="w-full"
+          >
+            {loading ? (
+              <>
+                <Spinner className="mr-2" />
+                Desconectando...
+              </>
+            ) : (
+              <>
+                <Power className="mr-2 h-4 w-4" />
+                Desconectar
+              </>
+            )}
+          </Button>
+        )}
 
+        
         {/* Instruções */}
         {!status?.ready && (
           <Alert>
@@ -207,6 +228,10 @@ export function WhatsAppConnection() {
                 <li>Toque em "Aparelhos conectados"</li>
                 <li>Escaneie o QR Code</li>
               </ol>
+              <p className="mt-2 text-yellow-600 dark:text-yellow-400">
+                ⚠️ Se o QR Code não aparecer, pode ser que já exista uma sessão salva. 
+                Use o botão "Forçar Novo QR Code" acima.
+              </p>
             </AlertDescription>
           </Alert>
         )}

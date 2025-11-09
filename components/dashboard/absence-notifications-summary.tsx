@@ -70,28 +70,28 @@ export function AbsenceNotificationsSummary() {
               <p className="text-2xl font-bold">{stats.total}</p>
             </div>
             
-            <div className="p-4 rounded-lg border bg-gray-50 border-gray-200">
+            <div className="p-4 rounded-lg border bg-yellow-50 dark:bg-yellow-900/20 border-yellow-200 dark:border-yellow-700">
               <div className="flex items-center gap-2 mb-2">
-                <Clock className="h-4 w-4 text-gray-500" />
-                <p className="text-sm font-medium text-muted-foreground">Sem Resposta</p>
+                <Clock className="h-4 w-4 text-yellow-600 dark:text-yellow-400" />
+                <p className="text-sm font-medium text-yellow-700 dark:text-yellow-400">Sem Resposta</p>
               </div>
-              <p className="text-2xl font-bold text-gray-600">{stats.noResponse}</p>
+              <p className="text-2xl font-bold text-yellow-600 dark:text-yellow-400">{stats.noResponse}</p>
             </div>
             
-            <div className="p-4 rounded-lg border bg-green-50 border-green-200">
+            <div className="p-4 rounded-lg border bg-green-50 dark:bg-green-950/30 border-green-200 dark:border-green-900">
               <div className="flex items-center gap-2 mb-2">
-                <CheckCircle2 className="h-4 w-4 text-green-600" />
-                <p className="text-sm font-medium text-green-700">Explicadas</p>
+                <CheckCircle2 className="h-4 w-4 text-green-600 dark:text-green-400" />
+                <p className="text-sm font-medium text-green-700 dark:text-green-400">Explicadas</p>
               </div>
-              <p className="text-2xl font-bold text-green-600">{stats.explained}</p>
+              <p className="text-2xl font-bold text-green-600 dark:text-green-400">{stats.explained}</p>
             </div>
             
-            <div className="p-4 rounded-lg border bg-orange-50 border-orange-200">
+            <div className="p-4 rounded-lg border bg-red-50 dark:bg-red-950/30 border-red-200 dark:border-red-900">
               <div className="flex items-center gap-2 mb-2">
-                <AlertTriangle className="h-4 w-4 text-orange-600" />
-                <p className="text-sm font-medium text-orange-700">Requer Atenção</p>
+                <AlertTriangle className="h-4 w-4 text-red-600 dark:text-red-400" />
+                <p className="text-sm font-medium text-red-700 dark:text-red-400">Requer Atenção</p>
               </div>
-              <p className="text-2xl font-bold text-orange-600">{stats.attention}</p>
+              <p className="text-2xl font-bold text-red-600 dark:text-red-400">{stats.attention}</p>
             </div>
           </div>
         )}

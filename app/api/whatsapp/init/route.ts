@@ -37,8 +37,20 @@ export async function GET(request: NextRequest) {
       })
     }
 
+    if (action === "clear-session") {
+      // Limpa a sessão e desconecta
+      await whatsappService.destroyWhatsAppClient()
+      whatsappService.clearSession()
+      return Response.json({
+        success: true,
+        message: "Sessão limpa. Inicie novamente para ver QR Code."
+      })
+    }
+
     // Ação padrão: inicializar
+    console.log('🚀 Initializing WhatsApp...')
     await whatsappService.initializeWhatsApp()
+    console.log('✅ WhatsApp initialization started')
     
     return Response.json({
       success: true,

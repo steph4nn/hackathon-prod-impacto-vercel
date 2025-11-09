@@ -97,7 +97,7 @@ async function interpretMotherResponse(notificationId: string, motherResponse: s
 
   // Usar IA para interpretar a resposta
   const { text } = await generateText({
-    model: openai("gpt-4o-mini"),
+    model: openai("gpt-5-mini"),
     prompt: `Você é um assistente educacional analisando a resposta de uma mãe sobre a falta do filho na escola.
 
 Resposta da mãe: "${motherResponse}"

@@ -7,6 +7,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Spinner } from "@/components/ui/spinner"
+import { useToast } from "@/hooks/use-toast"
 import {
   Pagination,
   PaginationContent,
@@ -46,6 +47,7 @@ interface Notification {
 }
 
 export function AbsenceNotifications() {
+  const { toast } = useToast()
   const [notifications, setNotifications] = useState<Notification[]>([])
   const [stats, setStats] = useState({
     total: 0,
@@ -83,9 +85,11 @@ export function AbsenceNotifications() {
   const sendNotifications = async () => {
     setSending(true)
     try {
-      // Usar a data de hoje ou a data com mais faltas
-      const today = new Date().toISOString().split('T')[0]
-      
+      toast({
+        title: "Enviando notificações...",
+        description: "Aguarde enquanto processamos o envio via WhatsApp",
+      })
+
       const response = await fetch('/api/whatsapp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -98,12 +102,19 @@ export function AbsenceNotifications() {
       const data = await response.json()
       
       if (data.success) {
-        alert(`✅ ${data.sent} notificações enviadas com sucesso!`)
+        toast({
+          title: "✅ Notificações enviadas!",
+          description: `${data.sent} mensagem(ns) enviada(s) com sucesso via WhatsApp.`,
+        })
         fetchNotifications()
       }
     } catch (error) {
       console.error("Error sending notifications:", error)
-      alert("❌ Erro ao enviar notificações")
+      toast({
+        title: "❌ Erro ao enviar",
+        description: "Não foi possível enviar as notificações. Tente novamente.",
+        variant: "destructive"
+      })
     } finally {
       setSending(false)
     }
@@ -120,14 +131,14 @@ export function AbsenceNotifications() {
         )
       case "explained":
         return (
-          <Badge variant="outline" className="border-green-500 text-green-600 bg-green-50">
+          <Badge variant="outline" className="border-green-500 dark:border-green-700 text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-950/30">
             <CheckCircle2 className="mr-1 h-3 w-3" />
             Explicado
           </Badge>
         )
       case "attention":
         return (
-          <Badge variant="outline" className="border-orange-500 text-orange-600 bg-orange-50">
+          <Badge variant="outline" className="border-red-500 dark:border-red-700 text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/30">
             <AlertTriangle className="mr-1 h-3 w-3" />
             Requer Atenção
           </Badge>
@@ -202,39 +213,39 @@ export function AbsenceNotifications() {
             </CardContent>
           </Card>
           
-          <Card className="border-gray-200 bg-gray-50">
+          <Card className="border-yellow-200 dark:border-yellow-700 bg-yellow-50 dark:bg-yellow-900/20">
             <CardHeader className="pb-2">
-              <CardTitle className="text-sm font-medium flex items-center gap-1">
+              <CardTitle className="text-sm font-medium flex items-center gap-1 text-yellow-700 dark:text-yellow-400">
                 <Clock className="h-4 w-4" />
                 Sem Resposta
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">{stats.noResponse}</div>
+              <div className="text-2xl font-bold text-yellow-600 dark:text-yellow-400">{stats.noResponse}</div>
             </CardContent>
           </Card>
           
-          <Card className="border-green-200 bg-green-50">
+          <Card className="border-green-200 dark:border-green-900 bg-green-50 dark:bg-green-950/30">
             <CardHeader className="pb-2">
-              <CardTitle className="text-sm font-medium flex items-center gap-1 text-green-700">
+              <CardTitle className="text-sm font-medium flex items-center gap-1 text-green-700 dark:text-green-400">
                 <CheckCircle2 className="h-4 w-4" />
                 Explicado
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-green-600">{stats.explained}</div>
+              <div className="text-2xl font-bold text-green-600 dark:text-green-400">{stats.explained}</div>
             </CardContent>
           </Card>
           
-          <Card className="border-orange-200 bg-orange-50">
+          <Card className="border-red-200 dark:border-red-900 bg-red-50 dark:bg-red-950/30">
             <CardHeader className="pb-2">
-              <CardTitle className="text-sm font-medium flex items-center gap-1 text-orange-700">
+              <CardTitle className="text-sm font-medium flex items-center gap-1 text-red-700 dark:text-red-400">
                 <AlertTriangle className="h-4 w-4" />
                 Requer Atenção
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-orange-600">{stats.attention}</div>
+              <div className="text-2xl font-bold text-red-600 dark:text-red-400">{stats.attention}</div>
             </CardContent>
           </Card>
         </div>
@@ -300,14 +311,26 @@ export function AbsenceNotifications() {
 
                           {/* Resposta da mãe */}
                           {notification.motherResponse && (
-                            <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
-                              <p className="text-sm font-medium text-blue-900 mb-1">
+                            <div className={`mt-4 p-3 bg-card border rounded-lg ${
+                              notification.status === "explained" 
+                                ? "border-green-500 dark:border-green-700"
+                                : notification.status === "attention"
+                                ? "border-red-500 dark:border-red-700"
+                                : "border-yellow-500 dark:border-yellow-700"
+                            }`}>
+                              <p className={`text-sm font-medium mb-1 ${
+                                notification.status === "explained"
+                                  ? "text-green-700 dark:text-green-400"
+                                  : notification.status === "attention"
+                                  ? "text-red-700 dark:text-red-400"
+                                  : "text-yellow-700 dark:text-yellow-400"
+                              }`}>
                                 💬 Resposta da Mãe:
                               </p>
-                              <p className="text-sm text-blue-800">
+                              <p className="text-sm text-foreground">
                                 "{notification.motherResponse}"
                               </p>
-                              <p className="text-xs text-blue-600 mt-1">
+                              <p className="text-xs text-muted-foreground mt-1">
                                 Respondido em: {formatDate(notification.respondedAt!)} às {formatTime(notification.respondedAt!)}
                               </p>
                             </div>
@@ -315,23 +338,19 @@ export function AbsenceNotifications() {
 
                           {/* Interpretação da IA */}
                           {notification.aiInterpretation && (
-                            <div className={`mt-3 p-3 rounded-lg border ${
-                              notification.status === "attention" 
-                                ? "bg-orange-50 border-orange-200"
-                                : "bg-green-50 border-green-200"
-                            }`}>
-                              <p className="text-sm font-medium mb-1">
+                            <div className="mt-3 p-3 bg-card border border-blue-500 dark:border-blue-700 rounded-lg">
+                              <p className="text-sm font-medium text-blue-700 dark:text-blue-400 mb-1">
                                 🤖 Análise da IA:
                               </p>
-                              <p className="text-sm mb-2">
+                              <p className="text-sm text-foreground mb-2">
                                 {notification.aiInterpretation.summary}
                               </p>
                               
                               {notification.aiInterpretation.requiresAction && (
-                                <Alert className="mt-2 bg-white border-orange-300">
-                                  <AlertTriangle className="h-4 w-4" />
-                                  <AlertTitle className="text-sm">Ação Sugerida:</AlertTitle>
-                                  <AlertDescription className="text-xs">
+                                <Alert className="mt-2 bg-orange-50 dark:bg-orange-950/30 border-orange-500 dark:border-orange-700">
+                                  <AlertTriangle className="h-4 w-4 text-orange-600 dark:text-orange-400" />
+                                  <AlertTitle className="text-sm text-orange-700 dark:text-orange-400">Ação Sugerida:</AlertTitle>
+                                  <AlertDescription className="text-xs text-orange-600 dark:text-orange-300">
                                     {notification.aiInterpretation.suggestedAction}
                                   </AlertDescription>
                                 </Alert>

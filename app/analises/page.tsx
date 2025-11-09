@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { SmartAlerts } from "@/components/dashboard/smart-alerts"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { ArrowLeft, TrendingUp } from "lucide-react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { Suspense } from "react"
@@ -34,6 +35,8 @@ function AnalisesContent() {
                 <p className="text-sm text-muted-foreground">Detecte padrões e receba alertas automáticos</p>
               </div>
             </div>
+            
+            <ThemeToggle />
           </div>
         </div>
       </header>

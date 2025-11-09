@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { ThemeToggle } from "@/components/theme-toggle"
 import Link from "next/link"
 import { 
   MessageSquare, 
@@ -49,6 +50,8 @@ export default function WhatsAppPage() {
                   Notificações
                 </Button>
               </Link>
+
+              <ThemeToggle />
             </div>
           </div>
         </div>
@@ -57,9 +60,9 @@ export default function WhatsAppPage() {
       <main className="container mx-auto px-4 py-6 sm:px-6 lg:px-8">
         {/* Seção: Como Funciona */}
         <div className="mb-8 space-y-4">
-          <Card className="border-blue-200 bg-blue-50">
+          <Card className="border-blue-200 dark:border-blue-900 bg-blue-50 dark:bg-blue-950/30">
             <CardHeader className="pb-3">
-              <MessageSquare className="h-8 w-8 text-blue-600 mb-2" />
+              <MessageSquare className="h-8 w-8 text-blue-600 dark:text-blue-400 mb-2" />
               <CardTitle className="text-lg">Envio Automático</CardTitle>
             </CardHeader>
             <CardContent>
@@ -69,9 +72,9 @@ export default function WhatsAppPage() {
             </CardContent>
           </Card>
 
-          <Card className="border-purple-200 bg-purple-50">
+          <Card className="border-purple-200 dark:border-purple-900 bg-purple-50 dark:bg-purple-950/30">
             <CardHeader className="pb-3">
-              <Brain className="h-8 w-8 text-purple-600 mb-2" />
+              <Brain className="h-8 w-8 text-purple-600 dark:text-purple-400 mb-2" />
               <CardTitle className="text-lg">Análise com IA</CardTitle>
             </CardHeader>
             <CardContent>
@@ -81,9 +84,9 @@ export default function WhatsAppPage() {
             </CardContent>
           </Card>
 
-          <Card className="border-orange-200 bg-orange-50">
+          <Card className="border-orange-200 dark:border-orange-900 bg-orange-50 dark:bg-orange-950/30">
             <CardHeader className="pb-3">
-              <Zap className="h-8 w-8 text-orange-600 mb-2" />
+              <Zap className="h-8 w-8 text-orange-600 dark:text-orange-400 mb-2" />
               <CardTitle className="text-lg">Alertas Inteligentes</CardTitle>
             </CardHeader>
             <CardContent>
@@ -199,29 +202,29 @@ export default function WhatsAppPage() {
             <CardTitle>Exemplos de Classificação pela IA</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
-            <Alert className="border-green-200 bg-green-50">
-              <CheckCircle2 className="h-4 w-4 text-green-600" />
-              <AlertTitle className="text-green-800">Falta Explicada</AlertTitle>
-              <AlertDescription className="text-green-700">
+            <Alert className="border-green-200 dark:border-green-900 bg-green-50 dark:bg-green-950/30">
+              <CheckCircle2 className="h-4 w-4 text-green-600 dark:text-green-400" />
+              <AlertTitle className="text-green-800 dark:text-green-300">Falta Explicada</AlertTitle>
+              <AlertDescription className="text-green-700 dark:text-green-400">
                 <strong>Resposta:</strong> "Ele está com febre alta, levei no médico"<br/>
                 <strong>Ação:</strong> Nenhuma ação necessária, situação compreensível
               </AlertDescription>
             </Alert>
 
-            <Alert className="border-orange-200 bg-orange-50">
-              <AlertTriangle className="h-4 w-4 text-orange-600" />
-              <AlertTitle className="text-orange-800">Alerta - Requer Atenção</AlertTitle>
-              <AlertDescription className="text-orange-700">
+            <Alert className="border-orange-200 dark:border-orange-900 bg-orange-50 dark:bg-orange-950/30">
+              <AlertTriangle className="h-4 w-4 text-orange-600 dark:text-orange-400" />
+              <AlertTitle className="text-orange-800 dark:text-orange-300">Alerta - Requer Atenção</AlertTitle>
+              <AlertDescription className="text-orange-700 dark:text-orange-400">
                 <strong>Resposta:</strong> "O ônibus não passou hoje, já é a terceira vez esse mês"<br/>
                 <strong>Ação Sugerida:</strong> Gestora deve contatar a secretaria de transporte escolar 
                 imediatamente. Problema sistêmico afetando múltiplos alunos.
               </AlertDescription>
             </Alert>
 
-            <Alert className="border-orange-200 bg-orange-50">
-              <AlertTriangle className="h-4 w-4 text-orange-600" />
-              <AlertTitle className="text-orange-800">Alerta - Bullying</AlertTitle>
-              <AlertDescription className="text-orange-700">
+            <Alert className="border-orange-200 dark:border-orange-900 bg-orange-50 dark:bg-orange-950/30">
+              <AlertTriangle className="h-4 w-4 text-orange-600 dark:text-orange-400" />
+              <AlertTitle className="text-orange-800 dark:text-orange-300">Alerta - Bullying</AlertTitle>
+              <AlertDescription className="text-orange-700 dark:text-orange-400">
                 <strong>Resposta:</strong> "Ela não quer ir porque os colegas ficam zoando do uniforme velho"<br/>
                 <strong>Ação Sugerida:</strong> 1) Providenciar uniforme através da assistência social, 
                 2) Conversar com a turma sobre respeito, 3) Acompanhar a aluna
@@ -239,7 +242,7 @@ export default function WhatsAppPage() {
             <div className="flex items-start gap-2">
               <CheckCircle2 className="h-5 w-5 text-green-600 mt-0.5" />
               <div>
-                <strong>Integração com WhatsApp:</strong> Sistema em modo demonstração (mockado) para a apresentação do hackathon
+                <strong>whatsapp-web.js:</strong> Biblioteca para integração com WhatsApp Web
               </div>
             </div>
             <div className="flex items-start gap-2">

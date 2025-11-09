@@ -36,7 +36,7 @@ ${student.alerts.length > 0 ? student.alerts.map((a) => `- ${a}`).join("\n") : "
 
   try {
     const { text } = await generateText({
-      model: openai("gpt-4o-mini"),
+      model: openai("gpt-5-mini"),
       prompt: `Você é um coordenador pedagógico experiente analisando dados de desempenho de alunos.
 
 ${studentContext}

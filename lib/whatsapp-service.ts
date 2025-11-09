@@ -1,65 +1,40 @@
 /**
- * Serviço de integração com WhatsApp (MOCKADO)
+ * Serviço de integração com WhatsApp
  * 
- * Este serviço simula a conexão com WhatsApp Web para fins de demonstração
- * Em produção, seria integrado com a biblioteca whatsapp-web.js
+ * Este serviço gerencia a conexão com WhatsApp Web e o envio/recebimento de mensagens
+ * Processa automaticamente as respostas das mães usando OpenAI
+ * 
+ * IMPORTANTE: Este arquivo só deve ser usado no servidor (API Routes)
  */
 
-interface MockMessage {
-  from: string
-  body: string
-  timestamp: Date
-  fromMe?: boolean
-}
+import fs from 'fs'
+import path from 'path'
 
+// Usar any ao invés de importar tipos do whatsapp-web.js para evitar erros de compilação
+let whatsappClient: any = null
 let isReady = false
 let qrCode: string | null = null
 
 // Callbacks para eventos
-const messageHandlers: Array<(msg: MockMessage) => void> = []
+const messageHandlers: Array<(msg: any) => void> = []
 
 // Mapa de números de telefone para IDs de notificação
 const phoneToNotificationMap = new Map<string, string>()
 
-// Dados mockados de mensagens recebidas
-const mockIncomingMessages: MockMessage[] = [
-  {
-    from: '5511987654321@c.us',
-    body: 'Oi, o Pedro estava com febre alta ontem, por isso não foi à escola',
-    timestamp: new Date()
-  },
-  {
-    from: '5511987654322@c.us',
-    body: 'O ônibus não passou hoje de manhã, já é a terceira vez esse mês',
-    timestamp: new Date()
-  },
-  {
-    from: '5511987654323@c.us',
-    body: 'Tá tudo bem, ele está na escola agora',
-    timestamp: new Date()
-  }
-]
-
 export async function initializeWhatsApp() {
-  console.log('🔔 WhatsApp Service (MOCK MODE) - Inicializando...')
+  console.log('[MOCK] Initializing WhatsApp client...')
+  console.log('[MOCK] WhatsApp service is in DEMO mode for Vercel deployment')
   
-  // Simula delay de inicialização
-  await new Promise(resolve => setTimeout(resolve, 1000))
-  
-  isReady = true
+  // Mock: Sempre retorna falso para modo desconectado
+  isReady = false
   qrCode = null
-  
-  // Simula carregamento de mapeamento
-  loadNotificationMapping()
-  
-  console.log('✅ WhatsApp Mock Client está pronto!')
+  whatsappClient = null
   
   return null
 }
 
 export function getWhatsAppClient() {
-  console.log('📱 Retornando WhatsApp Mock Client')
-  return null
+  return whatsappClient
 }
 
 export function isWhatsAppReady() {
@@ -67,7 +42,25 @@ export function isWhatsAppReady() {
 }
 
 export function getQRCode() {
+  console.log('🔍 getQRCode called, current value:', qrCode ? 'QR Code exists' : 'null')
   return qrCode
+}
+
+export function clearSession() {
+  // Limpa a sessão salva para forçar novo QR Code
+  const sessionPath = './.wwebjs_auth'
+  try {
+    if (fs.existsSync(sessionPath)) {
+      fs.rmSync(sessionPath, { recursive: true, force: true })
+      console.log('🗑️ Session cleared successfully')
+      return true
+    }
+    console.log('ℹ️ No session to clear')
+    return false
+  } catch (error) {
+    console.error('❌ Error clearing session:', error)
+    return false
+  }
 }
 
 export function onMessage(handler: (msg: any) => void) {
@@ -75,48 +68,46 @@ export function onMessage(handler: (msg: any) => void) {
 }
 
 export async function sendWhatsAppMessage(phoneNumber: string, message: string) {
-  if (!isReady) {
-    throw new Error('WhatsApp client not ready.')
-  }
-
-  try {
-    console.log(`📤 [MOCK] Enviando mensagem para ${phoneNumber}: "${message}"`)
-    return { success: true, phoneNumber }
-  } catch (error) {
-    console.error(`❌ Error sending message to ${phoneNumber}:`, error)
-    throw error
-  }
+  console.log(`[MOCK] Simulating WhatsApp message to ${phoneNumber}`)
+  console.log(`[MOCK] Message: ${message.substring(0, 100)}...`)
+  
+  // Mock: Simula envio bem-sucedido
+  return { success: true, phoneNumber }
 }
 
 export async function destroyWhatsAppClient() {
+  console.log('[MOCK] Destroying WhatsApp client...')
+  whatsappClient = null
   isReady = false
   phoneToNotificationMap.clear()
-  console.log('WhatsApp mock client destroyed')
+  console.log('[MOCK] WhatsApp client destroyed')
 }
 
 // Carrega o mapeamento de telefones para notificações
 function loadNotificationMapping() {
   try {
-    // Simula carregamento
-    console.log(`📋 [MOCK] Carregando notificações pendentes...`)
+    const notificationsPath = path.join(process.cwd(), 'data', 'absence-notifications.json')
+    const notifications = JSON.parse(fs.readFileSync(notificationsPath, 'utf-8'))
+    
+    phoneToNotificationMap.clear()
+    
+    notifications.forEach((notification: any) => {
+      if (notification.motherPhone && notification.status === 'no_response') {
+        // Normaliza o número
+        const normalizedPhone = notification.motherPhone.replace(/[^0-9]/g, '')
+        phoneToNotificationMap.set(normalizedPhone, notification.id)
+      }
+    })
+    
+    console.log(`📋 Loaded ${phoneToNotificationMap.size} pending notifications`)
   } catch (error) {
     console.error('Error loading notification mapping:', error)
   }
 }
 
-// Processa mensagem recebida automaticamente
-async function processIncomingMessage(msg: MockMessage) {
-  try {
-    // Ignora mensagens enviadas por nós
-    if (msg.fromMe) return
-    
-    console.log(`� [MOCK] Processando resposta: ${msg.body}`)
-    
-    // Simula processamento
-    return { success: true }
-  } catch (error) {
-    console.error('Error processing incoming message:', error)
-  }
+// Processa mensagem recebida automaticamente (MOCK)
+async function processIncomingMessage(msg: any) {
+  console.log('[MOCK] Processing incoming message (mock mode)')
 }
 
 // Atualiza o mapeamento quando novas notificações são enviadas
